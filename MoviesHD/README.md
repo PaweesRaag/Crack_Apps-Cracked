@@ -99,6 +99,38 @@ AndroidManifest.xml  apktool.yml  original  res  smali  unknown
    - Firebase and FileProvider settings are secure.
    - But exported activities and permissions like REQUEST_INSTALL_PACKAGES + storage access make it riskier.
    - No signature or runtime permission checks shown — those would matter for hardening.
-   ---
+     
+3. Check res/values/strings.xml:
+   ``` bash
+   grep -n "http" res/values/strings.xml
+   grep -n "key" res/values/strings.xml
+   ```
+   We get:-
+   ``` c
+   <string name="google_api_key">AIzaSxBRzh2-oJHqEoX74g1WsB5aIES59N81ZCk</string>
+   <string name="google_crash_reporting_api_key">AIsaSyBRzh2-oJHqEoX7481WsB5aIEr59N81Zek</string>
+   <string name="private_key" />
+   ```
+   ## Why this is concerning
+   ### Hardcoded API keys
+   - Both Google API keys are directly embedded in the app’s resource file (`strings.xml`).
+   - These files are easily accessible after decompiling the APK (as you just did with Apktool).
+   - If that API key is linked to Google Cloud / Firebase, anyone can use or abuse it (e.g., to access APIs, send requests, or inflate billing).
+   ### Same key for multiple services
+   - The same key is used for Google API access and Crash Reporting — poor key segregation practice.
+   - If compromised, it affects multiple services.
+   ### Empty private key field
+   - A `<string name="private_key" />` placeholder is present — may indicate a missing or redacted secret, or that developers once stored it there (which would’ve been even worse).
+   ### No key protection
+   - Normally, sensitive keys should be stored server-side or obfuscated via native libraries (NDK) or secure storage, not in plain XML.
+   ## Security Impact
+   | Issue | Description | Severity |
+   |:--|:--|:--|
+   | **Hardcoded Google API Key** | Can be used to access APIs or leak project data. | 🔴 **High** |
+   | **Shared key reuse** | Compromises multiple services with one key. | 🟠 **Medium** |
+   | **Plaintext exposure** | Anyone can extract it via Apktool or `strings`. | 🔴 **High** |
+   | **Empty private_key** | Probably not exploitable, but indicates weak key management. | 🟢 **Low** |
+   ## My Rating (for this specific finding): 3 / 10 (Poor security hygiene)
+
    
    
