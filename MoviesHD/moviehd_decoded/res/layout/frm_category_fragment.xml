@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/main_action" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:theme="@style/AppTheme.AppBarOverlay" android:id="@id/toolbar" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:popupTheme="@style/AppTheme.PopupOverlay" />
+    <FrameLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <FrameLayout android:layout_gravity="center" android:id="@id/advLayout" android:background="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0" />
+</LinearLayout>

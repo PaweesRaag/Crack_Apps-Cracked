@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_gravity="start" android:id="@id/left_drawer" android:background="#ff444444" android:layout_width="220.0dip" android:layout_height="fill_parent" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <ImageView android:layout_gravity="center" android:id="@id/imageView1" android:padding="5.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/movie" android:scaleType="fitXY" />
+            <TextView android:textColor="#ffffffff" android:gravity="center" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="Movie" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/movie_update" android:background="#ff333333" android:paddingLeft="50.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:textColor="#ffffffff" android:gravity="center|left" android:id="@id/txtmovie_update" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="Top Update" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/movie_popular" android:background="#ff333333" android:paddingLeft="50.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:textColor="#ffffffff" android:gravity="center|left" android:id="@id/txtmovie_popular" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="Top Popular" />
+        </LinearLayout>
+        <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <ImageView android:layout_gravity="center" android:id="@id/imageClose" android:padding="5.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/tvshow" android:scaleType="fitXY" />
+            <TextView android:textColor="#ffffffff" android:gravity="center" android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="TVShow" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/tvshow_update" android:background="#ff333333" android:paddingLeft="50.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:textColor="#ffffffff" android:gravity="center|left" android:id="@id/txttvshow_update" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="Top Update" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/tvshow_popular" android:background="#ff333333" android:paddingLeft="50.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:textColor="#ffffffff" android:gravity="center|left" android:id="@id/txttvshow_popular" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="Top Popular" />
+        </LinearLayout>
+        <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <ImageView android:layout_gravity="center" android:padding="5.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/movie" android:scaleType="fitXY" />
+            <TextView android:textColor="#ffffffff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="Favorities" />
+        </LinearLayout>
+        <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <ImageView android:layout_gravity="center" android:padding="5.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/movie" android:scaleType="fitXY" />
+            <TextView android:textColor="#ffffffff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="Download" />
+        </LinearLayout>
+        <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <ImageView android:layout_gravity="center" android:padding="5.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/movie" android:scaleType="fitXY" />
+            <TextView android:textColor="#ffffffff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="More.." />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

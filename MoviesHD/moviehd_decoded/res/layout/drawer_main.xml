@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout android:id="@id/drawer_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <FrameLayout android:id="@id/content_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <FrameLayout android:layout_gravity="center" android:id="@id/advLayout" android:background="#ff333333" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0" />
+    </LinearLayout>
+    <ListView android:layout_gravity="start" android:id="@id/left_drawer" android:background="#ee333333" android:layout_width="220.0dip" android:layout_height="fill_parent" android:divider="#ff444444" android:choiceMode="singleChoice" />
+</androidx.drawerlayout.widget.DrawerLayout>

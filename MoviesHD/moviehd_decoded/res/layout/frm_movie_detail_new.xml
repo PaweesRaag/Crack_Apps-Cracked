@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff333333" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scrollView1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/imageView1" android:layout_width="120.0dip" android:layout_height="180.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/thumb" android:scaleType="fitXY" />
+                <LinearLayout android:orientation="vertical" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="17.0dip" android:textStyle="bold" android:textColor="#ffe2e2e2" android:gravity="center|left" android:id="@id/name" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="5.0dip" android:maxLines="2" />
+                    <TextView android:textSize="15.0dip" android:textColor="#ffe2e2e2" android:id="@id/txt_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="5.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <TextView android:textSize="15.0dip" android:textStyle="bold" android:textColor="#ffe2e2e2" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="Synopsis" />
+                <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="10.0dip" />
+                <TextView android:textSize="15.0dip" android:textColor="#ffe2e2e2" android:id="@id/txt_des" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <TextView android:textSize="15.0dip" android:textStyle="bold" android:textColor="#ffe2e2e2" android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="Episodes" />
+                <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="10.0dip" />
+            </LinearLayout>
+            <com.ggateam.moviehd.ui.view.ExpandableHeightListView android:orientation="vertical" android:id="@id/listView" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

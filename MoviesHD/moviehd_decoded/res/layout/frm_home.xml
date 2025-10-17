@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/home_layout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/AppTheme.AppBarOverlay" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.drawerlayout.widget.DrawerLayout android:id="@id/drawer_layout2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@id/content_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/advLayout" android:background="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0" />
+        </LinearLayout>
+        <com.google.android.material.navigation.NavigationView android:theme="@style/AppTheme.AppMenuOverlay" android:layout_gravity="start" android:id="@id/nav_view" android:background="@color/menubg" android:fitsSystemWindows="true" android:layout_width="wrap_content" android:layout_height="fill_parent" app:menu="@menu/activity_main_drawer" />
+    </androidx.drawerlayout.widget.DrawerLayout>
+</LinearLayout>

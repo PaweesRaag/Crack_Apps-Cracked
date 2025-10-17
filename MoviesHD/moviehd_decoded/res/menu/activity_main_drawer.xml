@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item android:icon="@drawable/ico_movie" android:id="@id/movie" android:title="Movie" />
+        <item android:id="@id/movie_update" android:title="     Update" />
+        <item android:id="@id/movie_trending" android:title="     Trending" />
+        <item android:id="@id/movie_popular" android:title="     Popular" />
+        <item android:id="@id/movie_new" android:title="     New" />
+        <item android:id="@id/movie_rating" android:title="     Rating" />
+        <item android:id="@id/movie_3d" android:title="     3D" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:icon="@drawable/ico_nlive" android:id="@id/tvshow" android:title="Tvshow" />
+        <item android:id="@id/tvshow_update" android:title="     Update" />
+        <item android:id="@id/tvshow_trending" android:title="     Trending" />
+        <item android:id="@id/tvshow_popular" android:title="     Popular" />
+        <item android:id="@id/tvshow_new" android:title="     New" />
+        <item android:id="@id/tvshow_rating" android:title="     Rating" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:icon="@drawable/rating_menu" android:id="@id/favorities" android:title="Favorites" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:icon="@drawable/history_menu" android:id="@id/history" android:title="History" />
+    </group>
+</menu>
