@@ -1,0 +1,74 @@
+version: 2.9.3
+apkFileName: NetMirror.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 24
+  targetSdkVersion: 35
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 1
+  versionName: 3.0
+resourcesAreCompressed: false
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  DebugProbesKt.bin: 8
+  kotlin-tooling-metadata.json: 8
+  okhttp3/internal/publicsuffix/NOTICE: 8
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: 8
+doNotCompress:
+- resources.arsc
+- assets/index.android.bundle
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm
+- lib/arm64-v8a/libappmodules.so
+- lib/arm64-v8a/libc++_shared.so
+- lib/arm64-v8a/libfbjni.so
+- lib/arm64-v8a/libgesturehandler.so
+- lib/arm64-v8a/libhermes.so
+- lib/arm64-v8a/libhermestooling.so
+- lib/arm64-v8a/libimagepipeline.so
+- lib/arm64-v8a/libjsi.so
+- lib/arm64-v8a/libnative-filters.so
+- lib/arm64-v8a/libnative-imagetranscoder.so
+- lib/arm64-v8a/libreactnative.so
+- lib/armeabi-v7a/libappmodules.so
+- lib/armeabi-v7a/libc++_shared.so
+- lib/armeabi-v7a/libfbjni.so
+- lib/armeabi-v7a/libgesturehandler.so
+- lib/armeabi-v7a/libhermes.so
+- lib/armeabi-v7a/libhermestooling.so
+- lib/armeabi-v7a/libimagepipeline.so
+- lib/armeabi-v7a/libjsi.so
+- lib/armeabi-v7a/libnative-filters.so
+- lib/armeabi-v7a/libnative-imagetranscoder.so
+- lib/armeabi-v7a/libreactnative.so
+- lib/x86/libappmodules.so
+- lib/x86/libc++_shared.so
+- lib/x86/libfbjni.so
+- lib/x86/libgesturehandler.so
+- lib/x86/libhermes.so
+- lib/x86/libhermestooling.so
+- lib/x86/libimagepipeline.so
+- lib/x86/libjsi.so
+- lib/x86/libnative-filters.so
+- lib/x86/libnative-imagetranscoder.so
+- lib/x86/libreactnative.so
+- lib/x86_64/libappmodules.so
+- lib/x86_64/libc++_shared.so
+- lib/x86_64/libfbjni.so
+- lib/x86_64/libgesturehandler.so
+- lib/x86_64/libhermes.so
+- lib/x86_64/libhermestooling.so
+- lib/x86_64/libimagepipeline.so
+- lib/x86_64/libjsi.so
+- lib/x86_64/libnative-filters.so
+- lib/x86_64/libnative-imagetranscoder.so
+- lib/x86_64/libreactnative.so
+- png

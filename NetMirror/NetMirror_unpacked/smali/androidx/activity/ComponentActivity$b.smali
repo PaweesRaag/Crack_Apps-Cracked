@@ -1,0 +1,36 @@
+.class Landroidx/activity/ComponentActivity$b;
+.super Landroidx/activity/result/e;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroidx/activity/ComponentActivity;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic i:Landroidx/activity/ComponentActivity;
+
+
+# direct methods
+.method constructor <init>(Landroidx/activity/ComponentActivity;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Landroidx/activity/ComponentActivity$b;->i:Landroidx/activity/ComponentActivity;
+
+    .line 2
+    .line 3
+    invoke-direct {p0}, Landroidx/activity/result/e;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
