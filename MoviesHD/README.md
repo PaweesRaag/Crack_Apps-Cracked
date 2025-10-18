@@ -132,5 +132,41 @@ AndroidManifest.xml  apktool.yml  original  res  smali  unknown
    | **Empty private_key** | Probably not exploitable, but indicates weak key management. | 🟢 **Low** |
    ## My Rating (for this specific finding): 3 / 10 (Poor security hygiene)
 
+3. Using Jadx-GUI
+   <br> Below is the screenshot of the report and let'see what does it even mean
+   <img width="1920" height="1045" alt="image" src="https://github.com/user-attachments/assets/33c43851-5392-4977-beb9-79410026a302" />
+   APK Signature Analysis Report Summary<br>
+🔹 Signer Information
+    - Type: X.509 (standard digital certificate format)
+    - Algorithm: RSA 2048-bit key
+    - Signature Algorithm: SHA256withRSA
+      - This means the APK was signed using a SHA-256 hash combined with RSA encryption.
+      - Issuer (Subject CN): Yuan, Quo-VN, L=Can Tho
+      - Indicates the certificate’s origin (probably self-signed or unofficial).
+    - Validity Period:
+      - Issued: 2015-08-31
+      - Expires: 2115-08-07 (!)→ 100-year validity — this is not standard and often seen in self-signed or unofficial developer keys.<br>
+🔹 Public Key Details
+   - Key size: 2048 bits — secure for modern use.
+   - Exponent: 65537 (standard).
+   - Signature OID: 1.2.840.113549.1.1.11 → corresponds to SHA256withRSA.
+
+  | Category | Finding | Rating | Comments |
+  | :-- | :-- | :-- | :--|
+  | **Signature Scheme** | Only uses **v1 (JAR) signing** | 🔴 **High Risk** | Outdated — does not protect all files, vulnerable to tampering and repackaging. |
+  | **Certificate Authority** | **Self-signed certificate** | 🔴 **High Risk** | No trusted CA validation — authenticity cannot be confirmed. |
+  | **Certificate Validity**  | **100-year validity period** | 🟠 **Suspicious** | Typical developer certs use 25–30 years max; this looks like a homemade key. |
+  | **Key Strength** | **RSA 2048-bit** | 🟢 **Good** | Strong cryptographic size, but doesn’t fix the authenticity issue. |
+  | **Unprotected Files** | Dozens of entries under `META-INF/` not covered by v1 signature | 🔴 **High Risk**  | Allows modification without invalidating signature. |
+  | **Tampering Detection** | Weak (v1 signature) | 🔴 **High Risk**  | A modified APK can be re-signed easily with another key. |
+  | **Overall Integrity** | Weak overall integrity | 🔴 **High Risk** | Should not be trusted for production use or sensitive data. |
+
+  ### My Rating: 3 / 10
+
+  ## So the grand total sums upto :- 12.5/30 (Not at all reliable)
+> This is just the begining so there are a bit of extra `info`. Next time we'll just jump into the apk directly. Also using JADX-GUI was a bit stumbling.........hoping to smoothen out later
+
+   
+
    
    
