@@ -1,0 +1,335 @@
+./smali/f0/f.smali:907:    const-string v0, "https"
+./smali/f0/f.smali:923:    const-string v0, "http"
+./smali/S2/a.smali:501:    const-string v7, "okhttp/4.9.2"
+./smali/D2/n.smali:408:    const-string v1, "Kotlin reflection is not yet supported for synthetic Java properties. Please follow/upvote https://youtrack.jetbrains.com/issue/KT-55980"
+./smali/H1/d.smali:171:    const-string v1, "debug_http_host"
+./smali/H1/d.smali:335:    const-string v1, "debug_http_host"
+./smali/N2/c.smali:263:    const-string v1, "okhttp3."
+./smali/W2/e.smali:536:    const-string v1, "null cannot be cast to non-null type okhttp3.internal.platform.Jdk8WithJettyBootPlatform.AlpnProvider"
+./smali/R2/f.smali:2579:    const-string v2, "okhttp/4.9.2"
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase$a.smali:1:.class public final Lokhttp3/internal/publicsuffix/PublicSuffixDatabase$a;
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase$a.smali:8:    value = Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase$a.smali:31:    invoke-direct {p0}, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase$a;-><init>()V
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase$a.smali:36:.method public static final synthetic a(Lokhttp3/internal/publicsuffix/PublicSuffixDatabase$a;[B[[BI)Ljava/lang/String;
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase$a.smali:40:    invoke-direct {p0, p1, p2, p3}, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase$a;->b([B[[BI)Ljava/lang/String;
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase$a.smali:422:.method public final c()Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase$a.smali:426:    invoke-static {}, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;->a()Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:1:.class public final Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:9:        Lokhttp3/internal/publicsuffix/PublicSuffixDatabase$a;
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:19:.field private static final g:Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:21:.field public static final h:Lokhttp3/internal/publicsuffix/PublicSuffixDatabase$a;
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:39:    new-instance v0, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase$a;
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:46:    invoke-direct {v0, v1}, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase$a;-><init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:51:    sput-object v0, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;->h:Lokhttp3/internal/publicsuffix/PublicSuffixDatabase$a;
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:76:    sput-object v1, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;->e:[B
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:92:    sput-object v0, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;->f:Ljava/util/List;
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:96:    new-instance v0, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:100:    invoke-direct {v0}, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;-><init>()V
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:105:    sput-object v0, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;->g:Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:133:    iput-object v0, p0, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;->a:Ljava/util/concurrent/atomic/AtomicBoolean;
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:149:    iput-object v0, p0, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;->b:Ljava/util/concurrent/CountDownLatch;
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:156:.method public static final synthetic a()Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:160:    sget-object v0, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;->g:Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:175:    iget-object v1, v0, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;->a:Ljava/util/concurrent/atomic/AtomicBoolean;
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:197:    iget-object v1, v0, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;->a:Ljava/util/concurrent/atomic/AtomicBoolean;
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:213:    invoke-direct/range {p0 .. p0}, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;->e()V
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:223:    iget-object v1, v0, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;->b:Ljava/util/concurrent/CountDownLatch;
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:252:    iget-object v1, v0, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;->c:[B
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:388:    sget-object v8, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;->h:Lokhttp3/internal/publicsuffix/PublicSuffixDatabase$a;
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:392:    iget-object v9, v0, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;->c:[B
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:406:    invoke-static {v8, v9, v4, v5}, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase$a;->a(Lokhttp3/internal/publicsuffix/PublicSuffixDatabase$a;[B[[BI)Ljava/lang/String;
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:463:    sget-object v11, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;->e:[B
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:471:    sget-object v11, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;->h:Lokhttp3/internal/publicsuffix/PublicSuffixDatabase$a;
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:475:    iget-object v12, v0, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;->c:[B
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:489:    invoke-static {v11, v12, v5, v10}, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase$a;->a(Lokhttp3/internal/publicsuffix/PublicSuffixDatabase$a;[B[[BI)Ljava/lang/String;
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:534:    sget-object v9, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;->h:Lokhttp3/internal/publicsuffix/PublicSuffixDatabase$a;
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:538:    iget-object v10, v0, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;->d:[B
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:556:    invoke-static {v9, v10, v4, v6}, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase$a;->a(Lokhttp3/internal/publicsuffix/PublicSuffixDatabase$a;[B[[BI)Ljava/lang/String;
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:662:    sget-object v1, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;->f:Ljava/util/List;
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:830:    const-class v0, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:937:    iput-object v1, p0, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;->c:[B
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:946:    iput-object v2, p0, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;->d:[B
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:955:    iget-object v0, p0, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;->b:Ljava/util/concurrent/CountDownLatch;
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:1012:    invoke-direct {p0}, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;->d()V
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:1252:    invoke-direct {p0, v0}, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;->f(Ljava/lang/String;)Ljava/util/List;
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:1260:    invoke-direct {p0, v0}, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;->b(Ljava/util/List;)Ljava/util/List;
+./smali/okhttp3/internal/publicsuffix/PublicSuffixDatabase.smali:1398:    invoke-direct {p0, p1}, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;->f(Ljava/lang/String;)Ljava/util/List;
+./smali/X2/d$a.smali:55:    new-instance v1, Landroid/net/http/X509TrustManagerExtensions;
+./smali/X2/d$a.smali:59:    invoke-direct {v1, p1}, Landroid/net/http/X509TrustManagerExtensions;-><init>(Ljavax/net/ssl/X509TrustManager;)V
+./smali/X2/d$a.smali:82:    invoke-direct {v0, p1, v1}, LX2/d;-><init>(Ljavax/net/ssl/X509TrustManager;Landroid/net/http/X509TrustManagerExtensions;)V
+./smali/X2/e.smali:117:    const-string v2, "okhttp.OkHttpClient"
+./smali/X2/e.smali:147:    const-string v2, "okhttp.Http2"
+./smali/X2/e.smali:177:    const-string v2, "okhttp.TaskRunner"
+./smali/X2/e.smali:186:    const-string v1, "okhttp3.mockwebserver.MockWebServer"
+./smali/X2/e.smali:190:    const-string v2, "okhttp.MockWebServer"
+./smali/X2/d.smali:21:.field private final c:Landroid/net/http/X509TrustManagerExtensions;
+./smali/X2/d.smali:48:.method public constructor <init>(Ljavax/net/ssl/X509TrustManager;Landroid/net/http/X509TrustManagerExtensions;)V
+./smali/X2/d.smali:79:    iput-object p2, p0, LX2/d;->c:Landroid/net/http/X509TrustManagerExtensions;
+./smali/X2/d.smali:134:    iget-object v0, p0, LX2/d;->c:Landroid/net/http/X509TrustManagerExtensions;
+./smali/X2/d.smali:142:    invoke-virtual {v0, p1, v1, p2}, Landroid/net/http/X509TrustManagerExtensions;->checkServerTrusted([Ljava/security/cert/X509Certificate;Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;
+./smali/a3/d.smali:3363:    const-string v1, "null cannot be cast to non-null type okhttp3.internal.ws.RealWebSocket.Close"
+./smali/a3/d.smali:3591:    const-string v1, "null cannot be cast to non-null type okhttp3.internal.ws.RealWebSocket.Message"
+./smali/a3/d.smali:3807:    const-string v4, "null cannot be cast to non-null type okhttp3.internal.ws.RealWebSocket.Close"
+./smali/U2/g.smali:214:    const-string v0, "http2Connection"
+./smali/U2/d.smali:144:    const-string v9, "http"
+./smali/U2/d.smali:160:    const-string v10, "https"
+./smali/U2/j.smali:2083:    const-string p1, "errorCode.httpCode == -1"
+./smali/com/facebook/soloader/SoLoader.smali:4690:    const-string v1, "http://www.android.com/"
+./smali/com/facebook/react/modules/network/g.smali:224:    const-string v2, "http-cache"
+./smali/com/facebook/react/modules/network/n.smali:677:    const-string v6, "http"
+./smali/com/facebook/react/modules/blob/BlobModule$b.smali:193:    const-string v0, "http"
+./smali/com/facebook/react/modules/blob/BlobModule$b.smali:209:    const-string v0, "https"
+./smali/com/facebook/react/modules/websocket/WebSocketModule$a.smali:115:    const-string v4, "http"
+./smali/com/facebook/react/modules/websocket/WebSocketModule$a.smali:128:    const-string v5, "https"
+./smali/com/facebook/react/devsupport/k.smali:590:    const-string v5, "http://%s/%s.%s?platform=android&dev=%s&lazy=%s&minify=%s&app=%s&modulesOnly=%s&runModule=%s"
+./smali/com/facebook/react/devsupport/k.smali:860:    const-string v2, "http://%s/inspector/device?name=%s&app=%s&device=%s&profiling=%b"
+./smali/com/facebook/react/devsupport/k.smali:1579:    const-string v2, "http://%s/open-debugger?device=%s"
+./smali/com/facebook/react/devsupport/W$b.smali:186:    const-string v2, "Got non-success http code from packager when requesting status: "
+./smali/com/facebook/react/devsupport/W$a.smali:82:    const-string v1, "http://%s/status"
+./smali/com/reactnativecommunity/webview/i.smali:753:.method public onReceivedSslError(Landroid/webkit/WebView;Landroid/webkit/SslErrorHandler;Landroid/net/http/SslError;)V
+./smali/com/reactnativecommunity/webview/i.smali:765:    invoke-virtual {p3}, Landroid/net/http/SslError;->getUrl()Ljava/lang/String;
+./smali/com/reactnativecommunity/webview/i.smali:834:    invoke-virtual {p3}, Landroid/net/http/SslError;->getPrimaryError()I
+./smali/com/learnium/RNDeviceInfo/RNDeviceModule.smali:5267:    const-string v0, "http.agent"
+./smali/com/ninty/system/setting/SystemSetting.smali:3226:    const-string v0, "setVolume(0) failed. See https://github.com/c19354837/react-native-system-setting/issues/48"
+./smali/com/swmansion/gesturehandler/react/c.smali:16:    const-string v0, "Your application is configured to use RNGestureHandlerEnabledRootView which is no longer supported. You can see how to migrate to <GestureHandlerRootView /> here: https://docs.swmansion.com/react-native-gesture-handler/docs/guides/migrating-off-rnghenabledroot"
+./smali/com/swmansion/gesturehandler/react/c.smali:32:    const-string p2, "Your application is configured to use RNGestureHandlerEnabledRootView which is no longer supported. You can see how to migrate to <GestureHandlerRootView /> here: https://docs.swmansion.com/react-native-gesture-handler/docs/guides/migrating-off-rnghenabledroot"
+./smali/M2/B$a.smali:841:    const-string v1, "http:"
+./smali/M2/B$a.smali:908:    const-string v1, "https:"
+./smali/M2/c.smali:410:    const-string p2, "null cannot be cast to non-null type okhttp3.Cache.CacheResponseBody"
+./smali/M2/A.smali:48:    const-string v2, "http/1.0"
+./smali/M2/A.smali:72:    const-string v3, "http/1.1"
+./smali/M2/a.smali:171:    const-string p4, "https"
+./smali/M2/a.smali:179:    const-string p4, "http"
+./smali/M2/u$b.smali:1324:    const-string v0, "https"
+./smali/M2/u$b.smali:1348:    const-string v0, "http"
+./smali/M2/u.smali:223:    const-string p2, "https"
+./smali/M2/z$a.smali:782:    const-string v1, "protocols must not contain http/1.0: "
+./smali/M2/z$a.smali:886:    const-string v1, "protocols must contain h2_prior_knowledge or http/1.1: "
+./smali/M2/z.smali:595:    const-string v1, "null cannot be cast to non-null type kotlin.collections.List<okhttp3.Interceptor?>"
+./smali/M2/u$a.smali:1414:    const-string v5, "https:"
+./smali/M2/u$a.smali:1423:    const-string v4, "https"
+./smali/M2/u$a.smali:1433:    const-string v5, "http:"
+./smali/M2/u$a.smali:1442:    const-string v4, "http"
+./smali/M2/u$a.smali:1458:    const-string v3, "Expected URL scheme \'http\' or \'https\' but was \'"
+./smali/M2/u$a.smali:2224:    const-string v2, "Expected URL scheme \'http\' or \'https\' but no colon was found"
+./smali/M2/u$a.smali:2728:    const-string v0, "http"
+./smali/M2/u$a.smali:2755:    const-string v0, "https"
+./smali/M2/m$b.smali:1852:    const-string v13, "httponly"
+./smali/M2/m$b.smali:2073:    sget-object v1, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;->h:Lokhttp3/internal/publicsuffix/PublicSuffixDatabase$a;
+./smali/M2/m$b.smali:2077:    invoke-virtual {v1}, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase$a;->c()Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;
+./smali/M2/m$b.smali:2085:    invoke-virtual {v1, v15}, Lokhttp3/internal/publicsuffix/PublicSuffixDatabase;->c(Ljava/lang/String;)Ljava/lang/String;
+./smali/M2/c$c.smali:596:    const-string v3, "https://"
+./smali/M2/m.smali:623:    const-string p1, "; httponly"
+./unknown/okhttp3/internal/publicsuffix/NOTICE:2:https://publicsuffix.org/list/public_suffix_list.dat
+./unknown/okhttp3/internal/publicsuffix/NOTICE:5:https://mozilla.org/MPL/2.0/
+./res/drawable-anydpi/ic_call_answer_video_low.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable-anydpi/ic_call_answer_low.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable-anydpi/ic_call_decline_low.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable-anydpi/ic_call_answer.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable-anydpi/ic_call_answer_video.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable-anydpi/ic_call_decline.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable-v29/autofill_inline_suggestion_chip_background.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/ripple_effect.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_text_cursor_material.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_list_selector_background_transition_holo_light.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_spinner_textfield_background_material.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_vector_test.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/btn_radio_on_mtrl.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_tab_indicator_material.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_ic_menu_copy_mtrl_am_alpha.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_star_half_black_48dp.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_ic_arrow_drop_right_black_24dp.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/btn_checkbox_checked_to_unchecked_mtrl_animation.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/redbox_top_border_background.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_btn_radio_material.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/btn_radio_off_mtrl.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_item_background_holo_light.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/btn_radio_on_to_off_mtrl_animation.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/done.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+./res/drawable/abc_ic_menu_cut_mtrl_alpha.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/background.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_seekbar_tick_mark_material.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_ic_menu_share_mtrl_alpha.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/paused_in_debugger_dialog_background.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_edit_text_material.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/rn_edit_text_material.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/paused_in_debugger_background.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/notification_tile_bg.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/drawable/abc_cab_background_top_material.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_ic_go_search_api_material.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/test_level_drawable.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_btn_check_material_anim.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_action_bar_item_background_material.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/drawable/btn_checkbox_unchecked_to_checked_mtrl_animation.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_btn_default_mtrl_shape.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_textfield_search_material.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/background_alert.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_seekbar_track_material.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/notification_bg_low.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_btn_borderless_material.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_ic_menu_selectall_mtrl_alpha.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_btn_check_material.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/tooltip_frame_light.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_list_selector_background_transition_holo_dark.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_seekbar_thumb_material.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/$done__1.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" />
+./res/drawable/abc_btn_colored_material.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_cab_background_internal_bg.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_star_black_48dp.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_ic_menu_overflow_material.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_control_background_material.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/drawable/notification_bg.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_ic_menu_paste_mtrl_am_alpha.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_btn_radio_material_anim.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/btn_radio_off_to_on_mtrl_animation.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/notification_icon_background.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_item_background_holo_dark.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/$done__0.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+./res/drawable/abc_ic_ab_back_material.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_list_divider_material.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_dialog_material_background.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_ic_search_api_material.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/notification_action_background.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/notification_action_background.xml:6:          xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_switch_thumb_material.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_ic_clear_material.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_list_selector_holo_dark.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/btn_checkbox_unchecked_mtrl.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/tooltip_frame_dark.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_ic_voice_search_api_material.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/error.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/abc_list_selector_holo_light.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/drawable/btn_checkbox_checked_mtrl.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/layout-watch/abc_alert_dialog_button_bar_material.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/layout-watch/abc_alert_dialog_title_material.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_0.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/interpolator/btn_radio_to_off_mtrl_animation_interpolator_0.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/interpolator/fast_out_slow_in.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/interpolator/btn_radio_to_on_mtrl_animation_interpolator_0.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/layout/support_simple_spinner_dropdown_item.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/layout/abc_action_menu_item_layout.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/layout/abc_action_menu_layout.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />
+./res/layout/abc_alert_dialog_button_bar_material.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/layout/notification_template_part_chronometer.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/layout/select_dialog_item_material.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/layout/notification_template_part_time.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/layout/abc_action_mode_close_item_material.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />
+./res/layout/abc_screen_content_include.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/layout/redbox_view.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/layout/abc_alert_dialog_title_material.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/layout/abc_list_menu_item_layout.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/layout/abc_dialog_title_material.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/layout/alert_title_layout.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/layout/abc_screen_toolbar.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+./res/layout/abc_popup_menu_item_layout.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/layout/alert.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/layout/toast.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/layout/abc_action_bar_up_container.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/layout/abc_select_dialog_material.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />
+./res/layout/abc_tooltip.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/layout/abc_search_dropdown_item_icons_2line.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/layout/abc_activity_chooser_view.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/layout/abc_search_view.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/layout/abc_alert_dialog_material.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+./res/layout/spinner.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/layout/abc_action_mode_bar.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/layout/redbox_item_title.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/layout/abc_action_bar_title_item.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/layout/fps_view.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/layout/abc_list_menu_item_radio.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/layout/ime_base_split_test_activity.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/layout/notification_action_tombstone.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/layout/paused_in_debugger_view.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+./res/layout/dev_loading_view.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/layout/notification_template_custom_big.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/layout/custom_dialog.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/layout/abc_expanded_menu_layout.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/layout/abc_list_menu_item_icon.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/layout/notification_action.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/layout/select_dialog_singlechoice_material.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/layout/ime_secondary_split_test_activity.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/layout/abc_list_menu_item_checkbox.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/layout/select_dialog_multichoice_material.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/layout/notification_template_icon_group.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/layout/abc_popup_menu_header_item_layout.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/layout/abc_activity_chooser_view_list_item.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/layout/abc_screen_simple_overlay_action_mode.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/layout/autofill_inline_suggestion.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/layout/redbox_item_frame.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/layout/abc_screen_simple.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/layout/abc_cascading_menu_item_layout.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/anim/btn_radio_to_on_mtrl_dot_group_animation.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/anim/btn_checkbox_to_unchecked_check_path_merged_animation.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/anim/catalyst_fade_out.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/anim/catalyst_push_up_out.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/anim/alert_out.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/anim/top_in.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/anim/abc_tooltip_enter.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/anim/btn_checkbox_to_checked_icon_null_animation.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/anim/abc_slide_out_top.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/anim/bottom_in.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/anim/abc_slide_in_top.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/anim/top_out.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/anim/catalyst_fade_in.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/anim/catalyst_slide_up.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/anim/abc_grow_fade_in_from_bottom.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/anim/catalyst_slide_down.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/anim/catalyst_push_up_in.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/anim/alert_in.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/anim/btn_checkbox_to_checked_box_outer_merged_animation.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/anim/abc_popup_exit.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/anim/btn_radio_to_on_mtrl_ring_outer_animation.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/anim/btn_radio_to_off_mtrl_ring_outer_animation.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/anim/btn_radio_to_off_mtrl_ring_outer_path_animation.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/anim/btn_checkbox_to_unchecked_icon_null_animation.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/anim/abc_popup_enter.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/anim/abc_slide_in_bottom.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/anim/abc_fade_out.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/anim/btn_checkbox_to_unchecked_box_inner_merged_animation.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/anim/abc_slide_out_bottom.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/anim/abc_shrink_fade_out_from_bottom.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/anim/abc_fade_in.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/anim/btn_checkbox_to_checked_box_inner_merged_animation.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/anim/btn_radio_to_off_mtrl_dot_group_animation.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/anim/abc_tooltip_exit.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/anim/fragment_fast_out_extra_slow_in.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/anim/bottom_out.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/anim/btn_radio_to_on_mtrl_ring_outer_path_animation.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/color/abc_hint_foreground_material_light.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/color/abc_primary_text_disable_only_material_dark.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/color/abc_secondary_text_material_light.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/color/abc_tint_default.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/color/abc_search_url_text.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/color/abc_btn_colored_borderless_text_material.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/color/abc_primary_text_material_dark.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/color/switch_thumb_material_light.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/color/abc_primary_text_disable_only_material_light.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/color/abc_background_cache_hint_selector_material_light.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/color/abc_tint_seek_thumb.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/color/abc_hint_foreground_material_dark.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/color/abc_btn_colored_text_material.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/color/abc_tint_edittext.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/color/abc_primary_text_material_light.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/color/abc_tint_switch_track.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/color/abc_color_highlight_material.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/color/abc_secondary_text_material_dark.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/color/abc_background_cache_hint_selector_material_dark.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/color/abc_tint_btn_checkable.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/color/switch_thumb_material_dark.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/color/abc_tint_spinner.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/layout-v26/abc_screen_toolbar.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+./res/animator/fragment_fade_enter.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/animator/fragment_fade_exit.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android" />
+./res/animator/fragment_close_exit.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/animator/fragment_open_enter.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/animator/fragment_close_enter.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/animator/fragment_open_exit.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/xml/rn_dev_preferences.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./res/xml/rn_dev_preferences.xml:10:        <EditTextPreference android:title="Debug server host &amp; port for device" android:key="debug_http_host" android:summary="Debug server host &amp; port for downloading JS bundle or communicating with JS debugger. With this setting empty launcher should work fine when running on emulator (or genymotion) and connection to debug server running on emulator's host." android:defaultValue="" />
+./res/drawable-watch/abc_dialog_material_background.xml:3:  xmlns:android="http://schemas.android.com/apk/res/android">
+./apktool.yml:23:  okhttp3/internal/publicsuffix/NOTICE: 8
+./apktool.yml:24:  okhttp3/internal/publicsuffix/publicsuffixes.gz: 8
+./AndroidManifest.xml:1:<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="35" android:compileSdkVersionCodename="15" package="app.netmirror.netmirrornew" platformBuildVersionCode="35" platformBuildVersionName="15">
