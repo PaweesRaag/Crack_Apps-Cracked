@@ -111,19 +111,20 @@ AndroidManifest.xml  apktool.yml  original  res  smali  unknown
    <string name="google_crash_reporting_api_key">AIsaSyBRzh2-oJHqEoX7481WsB5aIEr59N81Zek</string>
    <string name="private_key" />
    ```
-   ## Why this is concerning
-   ### Hardcoded API keys
+   **Why this is concerning**
+   **Hardcoded API keys**
    - Both Google API keys are directly embedded in the app’s resource file (`strings.xml`).
    - These files are easily accessible after decompiling the APK (as you just did with Apktool).
    - If that API key is linked to Google Cloud / Firebase, anyone can use or abuse it (e.g., to access APIs, send requests, or inflate billing).
-   ### Same key for multiple services
+   **Same key for multiple services**
    - The same key is used for Google API access and Crash Reporting — poor key segregation practice.
    - If compromised, it affects multiple services.
-   ### Empty private key field
+   **Empty private key field**
    - A `<string name="private_key" />` placeholder is present — may indicate a missing or redacted secret, or that developers once stored it there (which would’ve been even worse).
-   ### No key protection
+   **No key protection**
    - Normally, sensitive keys should be stored server-side or obfuscated via native libraries (NDK) or secure storage, not in plain XML.
-   ## Security Impact
+   **Security Impact**
+     
    | Issue | Description | Severity |
    |:--|:--|:--|
    | **Hardcoded Google API Key** | Can be used to access APIs or leak project data. | 🔴 **High** |
@@ -132,24 +133,29 @@ AndroidManifest.xml  apktool.yml  original  res  smali  unknown
    | **Empty private_key** | Probably not exploitable, but indicates weak key management. | 🟢 **Low** |
    ## My Rating (for this specific finding): 3 / 10 (Poor security hygiene)
 
-3. Using Jadx-GUI
-   <br> Below is the screenshot of the report and let'see what does it even mean
+## Using Jadx-GUI
+---
+ Below is the screenshot of the report and let'see what does it even mean
    <img width="1920" height="1045" alt="image" src="https://github.com/user-attachments/assets/33c43851-5392-4977-beb9-79410026a302" />
-   APK Signature Analysis Report Summary<br>
-🔹 Signer Information
-    - Type: X.509 (standard digital certificate format)
-    - Algorithm: RSA 2048-bit key
-    - Signature Algorithm: SHA256withRSA
-      - This means the APK was signed using a SHA-256 hash combined with RSA encryption.
-      - Issuer (Subject CN): Yuan, Quo-VN, L=Can Tho
-      - Indicates the certificate’s origin (probably self-signed or unofficial).
-    - Validity Period:
-      - Issued: 2015-08-31
-      - Expires: 2115-08-07 (!)→ 100-year validity — this is not standard and often seen in self-signed or unofficial developer keys.<br>
-🔹 Public Key Details
-   - Key size: 2048 bits — secure for modern use.
-   - Exponent: 65537 (standard).
-   - Signature OID: 1.2.840.113549.1.1.11 → corresponds to SHA256withRSA.
+   
+ # APK Signature Analysis Report Summary
+
+## 🔹 Signer Information
+- **Type:** X.509 (standard digital certificate format)  
+- **Algorithm:** RSA 2048-bit key  
+- **Signature Algorithm:** SHA256withRSA  
+  - This means the APK was signed using a SHA-256 hash combined with RSA encryption.  
+- **Issuer (Subject CN):** Yuan, Quo-VN, L=Can Tho  
+  - Indicates the certificate’s origin (likely self-signed or unofficial).  
+- **Validity Period:**  
+  - **Issued:** 2015-08-31  
+  - **Expires:** 2115-08-07 (!): 100-year validity — not standard; often seen in self-signed or unofficial developer keys.
+
+## 🔹 Public Key Details
+- **Key size:** 2048 bits — secure for modern use.  
+- **Exponent:** 65537 (standard).  
+- **Signature OID:** 1.2.840.113549.1.1.11 — corresponds to SHA256withRSA.
+
 
   | Category | Finding | Rating | Comments |
   | :-- | :-- | :-- | :--|
